@@ -1,14 +1,15 @@
-# clusters
+# Clusters
 
-A Clojure library designed to ... well, that part is up to you.
+Cluster estimation algorithm.
 
 ## Usage
 
-FIXME
+    $ lein run ~file-path~ ~distance-type~
 
-## License
+    $ lein run ./examples/glass.txt euclid
 
-Copyright © 2014 FIXME
+## Tests
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+    $ lein test
+
+## That's all, thanks :)
